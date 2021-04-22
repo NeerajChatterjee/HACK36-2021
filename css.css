@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* menu and navbar  */
+
+.line{
+    height: 7vh;
+    background-color: blue;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 3cm;
+    position: relative;
+}
+
+
+.logo{
+    width: 60px;
+    height: 100px;
+    margin: 1px 1cm;
+}
+.projname                   
+{   position: relative;
+    margin: 1px 1cm;
+    top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+    
+}
+
+button
+{   width: 3cm;
+    height: 42px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+.enter
+{   display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 10px;
+    margin: 0 3px;
+}
+
+.enter:hover .dropdown-content{                     /* For sub-categories of entertainment */
+    display: inline;
+}
+
+/* .dropdown-content a:hover .dropdown-content {
+    background-color: antiquewhite;
+} */
+
+.sublist{
+    margin: 0 10px;
+}
+
+.dropdown-content{
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 80px;
+    z-index: 10;
+    background-color: white;
+    min-width: 4cm;
+    min-height:3cm;
+    padding: 11px 1px;
+    
+}
+
+.dropdown-content a{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;    
+}
+
+.bar{
+    position: relative;
+    margin-top: 1cm;
+    align-items: center;
+}
+
+/* background */
+
+.background{
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(assests/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.space{
+    margin: 15px 40px;
+}
+.imgs{
+    width: 200px;
+    height: 250px;
+}
+.imgs:hover{
+    transform: scale(1.1);
+    transition: all .6s ease;
+}
+   

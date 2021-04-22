@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="name.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" type="image/png" href="icon1.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="footer_style.css">
+    <title>Registraion Form</title>
+    <style>
+        body{
+            background: none;
+            background-color: rgb(171, 221, 230);
+        }
+    </style>
+</head>
+<body>
+    <header><div class="line">
+        <span style="color: white;float: left;font-size: 22px;padding: 8px;">Government of India</span>
+        <span style="color: white;float: right;font-size: 22px;margin: 0px 8px 8px 0px;"><i class="fa fa-globe" aria-hidden="true" style="font-size: 22px;"></i>English</span>
+      </div>
+      <div class="top">
+          <a href="index.html"><img class="logo" src="logo1.png" alt="logo"></a>
+          <div class="projname">Pradhanmantri <br> Manoranjan <br> Yojana</div>
+          <div class="bar"><a href="index.html"><button>HOME</button></a></div>&emsp;
+          <div class="enter">
+              <div class="bar"> <a><button>ENTERTAINMENT</button></div></a>&emsp;
+              <div class="dropdown-content">
+                <a href="novels_index.html" target="_blank">NOVELS</a> <br>
+                <a href="songs_index.html" target="_blank">MUSIC</a> <br>
+                <a href="webseries_index.html" target="_blank">WEBSERIES</a> <br>
+                <a href="movies_index.html" target="_blank">MOVIES</a>
+              </div>
+          </div>
+          <div class="bar">
+              <a href="form_index.html"><button>VACCINATION</button></a>&emsp;
+              <a href="experience_index.html" target="_blank"><button>EXPERIENCE</button></a>&emsp;
+              <a href="tracker_index.html" target="_blank"><button>TRACKER</button></a>&emsp;
+          </div>
+    
+      </div></header>
+    <br><br><hr><br><form method="POST">
+        <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Register for Vaccination</h1>
+        <h3 style="color:green;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">User can register maximum 4 beneficiaries</h3>
+        <label for="idcard" class="idcard">Photo ID Card Type, that you will bring to Vacination Center</label><br><br>
+        <select class="sel" name="idcard" id="idcard" required>
+            <option value="#">SELECT</option>
+            <option value="Acard">Aadhar Card</option>
+            <option value="Drilic">Driving License</option>
+            <option value="PANcard">PAN Card</option>
+            <option value="pass">Passport</option>
+            <option value="Penbook">Pension Passbook</option>
+            <option value="NPR">NPR Smart Card</option>
+            <option value="votid">Voter ID</option>
+        </select><br><br>
+        <input type="text" name="idnum" id="idnum" placeholder="Photo Id Number" required ><br><br>
+        <input type="text" name="benname" id="benname" placeholder="Beneficiary Name as per Photo ID Card" required ><br><br>
+        <label for="gender" class="gend">Gender</label><br><br>
+        <input type="radio" name="gender" id="Male" value="Male" required>
+        <label for = "Male">Male</label>
+        <input type="radio" name="gender" id="Female" value="Female" required>
+        <label for = "Female">Female</label>
+        <input type="radio" name="gender" id="others" value="others" required>
+        <label for = "others">Others</label><br><br>
+        <input type="number" name="yob" id="yob" maxlength="4" placeholder="Year of Birth (YYYY)" required><br>
+        <h3>SCHEDULE VACCINATION</h3>
+        <input type="number" name="pin" id="pin" placeholder="PIN CODE" required><br><br>
+        <input type="date" name="date" id="date"><br><br>
+        <input type="time" name="time" id="time" required><br><br>
+        <button onclick="window.location.href = 'index.html';" id="c100">GO BACK</button>&nbsp; &nbsp;&nbsp; &nbsp;
+        <input type="submit" value="SUBMIT" class="regbut"><br><br>
+        <!--style="font-size: 15px;background-color: blue;color: white;"-->
+        <!--style="background-color: blue; color: white;font-size: 15px;"-->
+        </form><br><br>
+        <footer>
+            <div class="container">
+                 <div class="sec aboutus">
+                     <h2>
+                         About Us
+                     </h2>
+                     <p>This website is maintained and designed by Silkie Agarwal along with team members Kartikey Gupta, Shivanand and Neeraj Chatterjee. We are MNNIT 1st year Bachelor in Technology students. We are constantly trying to improve this website to give our audience the best content.</p>
+                        <ul class="sci">
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>                   
+                        </ul>
+                 </div>
+              
+                 <div class="sec quickLinks">
+                     <h2>
+                        Quick Links </h2>
+                    <ul>
+                        <li><a href="">About</a>"</li>
+                        <li><a href="">FAQ</a>"</li>
+                        <li><a href="">Privacy Policy</a>"</li>
+                        <li><a href="">Help</a>"</li>
+                        <li><a href="">Terms & Conditions</a>"</li>
+                        <li><a href="">Contact</a>"</li>
+                    </ul>
+                 </div>
+                 <div class="sec contact">
+                     <h2>Contact Info</h2>
+                     <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 17px;line-height: 0.3cm;"></i>
+                            <span>MNNIT ALLAHABAD</span></span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true" style="font-size: 17px;line-height: 0cm;"></i>
+                            <a href="tel:123456789">+1 234 567 89</a></span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true" style="font-size: 17px;"></i>                        
+                            <a href="mail">mail@mail.com</a>
+                          </span>
+                        </li>
+                     </ul>
+                 </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p>© 2021 Hypertext Assassins</p>
+        </div>
+</body>
+</html>

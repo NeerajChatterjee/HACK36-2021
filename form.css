@@ -1,0 +1,65 @@
+html,body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  rgb(171,221,230);;
+}
+input[type=radio]{
+    text-align: left;
+}
+form{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 245, 238);
+    border-radius: 0px 15px 0px 15px;
+    border: 4px solid black;
+}
+h1{
+    margin: -1px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 0px 15px 0px 0px;
+}
+input[type=number],input[type=text],input[type=date],input[type=time], .sel{
+    height: 40px;
+    width: 50%;
+    padding: 5px;
+    display: inline-block;
+    margin: 3px 0 3px 0;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+h1{
+    font-size: 35px;
+    padding: 5px;
+}
+h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.idcard{
+    font-size: 18px;
+    font-weight: 400;
+}
+.gend{
+    font-size: 18px; 
+}
+.regbut, #c100{
+  background-color: blue;
+  color: white;
+  height: 45px;
+  width: 125px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.regbut:hover, #c100:hover {
+    opacity:1;
+  }
